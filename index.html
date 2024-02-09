@@ -1,0 +1,64 @@
+<b>Summary</b><br>
+Table 192. Summary of the EKG_UnlockAll Function
+<blockquote>
+<table rules="rows">
+<tr><th>Function</th> <th>Setting</th></tr>
+	<tr><td>Function ID </td><td>2003</td></tr>
+	<tr><td>Type</td><td>Method API Service</td></tr>
+	<tr><td>User API</td><td>No</td></tr>
+	<tr><td>Object-specific method</td><td>No</td></tr>
+	
+	<tr><td>Initialization method</td><td>Yes</td></tr>
+	<tr><td>Methods triggered </td><td>No</td></tr>
+	<tr><td>Triggered by EKG_MessageTriggeredAction<br>
+function</td><td>No</td></tr>
+	<tr><td>Authorization</td><td>None</td></tr>
+	</table></blockquote>
+
+
+<h1>EKG_WhereAmI - Where Am I</h1><blockquote>
+<h3>Purpose</h3>
+	This function returns the class, object, field, and subfield to which the method
+name is assigned and the context in which the object-specific method is being run.
+	<h3>Function Block Format</h3>
+	Table 193. Function Block for the EKG_WhereAmI Function.
+	<br><table><tr></tr>
+	<th>Offset</th><th>Length </th><th>Type </th><th>Use </th><th>Parameter Name</th><br></table><td>000</td><td>4</td><td>Integer</td><td>In </td><td>Function_ID</td></table>
+See “Function Parameter Descriptions” on page 452 for more information about the
+parameters listed. See “Abstract Data Type Reference” on page 219 for more
+information about the abstract data types listed.
+<h3>Examples</h3>
+<i>Table 191. Example Names for the EKG_UnlockAll Function</i>
+<table rules="rows">
+
+	<tr><th>Offset</th><th>Length</th><th>Type</th><th>Use</th><th>Parameter Name</th></tr>
+	<tr><td>000</td><td>4</td><td>Integer</td><td>In</td><td>Function_ID</td></tr>
+</table>
+Table 194. Response Block for the EKG_WhereAmI Function
+<table rules="rows">
+<tr><th>Offset</th><th>Length</th><th>Type</th><th>Use</th><th>Parameter Name</th></tr>
+	<tr><td>000</td><td>4</td><td>Integer</td><td>In</td><td>Response_block_length</td></tr>
+	<tr><td>004</td><td>4</td><td>Integer</td><td>Out</td><td>Response_block_used</td></tr>
+	
+</table>
+<h3>Examples</h3>
+Table 195. Example Names for the EKG_WhereAmI Function.
+<table rules="rows">
+	<tr><th>Example</th><th>Name</th></tr>
+	<tr><td>PL/I function block</td><td>EKG12007</td></tr></table>
+
+
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
